@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainC">
+   <center>
+      <TextArea fx:id="textAreaAiResponse" editable="false" prefHeight="200.0" prefWidth="200.0" promptText="AI Response" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="textAreaInput" prefHeight="100.0" prefWidth="453.0" promptText="How Can i help You?" HBox.hgrow="ALWAYS" />
+            <Button maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleButtonSendAction" prefWidth="80.0" text="Send" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

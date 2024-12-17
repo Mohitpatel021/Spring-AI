@@ -1,0 +1,11 @@
+*{
+    -fx-font-size:12pt;
+    -fx-base:#BCCCDC
+}
+.text-area-response{
+    -fx-font-family:monospace;
+}
+.unimportant-button{
+
+    -fx-background-color:#DAC0A3
+}
